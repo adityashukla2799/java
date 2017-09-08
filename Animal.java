@@ -12,8 +12,10 @@ public class Animal {
     private char favouriteChar;
     private double speed;
     private float height;
-    protected static int numberOfAnimals;
+    protected static int numberOfAnimals = 0;
+    static Scannner userinput = new Scanner(System.in)
 
-
-
+    public Animal() {
+        System.out.println("")
+    }
 }
