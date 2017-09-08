@@ -8,6 +8,12 @@ public class Animal {
     private int weight;
     private boolean hasOwner = false;
     private byte age;
+    private long uniqueID;
+    private char favouriteChar;
+    private double speed;
+    private float height;
+    protected static int numberOfAnimals;
+
 
 
 }
